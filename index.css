@@ -1,0 +1,74 @@
+{ box sizing: border-box; }
+
+/* Header */
+header {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center; 
+  position: absolute;
+  bottom: 15rem;
+  left: 0;
+  right: 0;
+  width: 100%; 
+  height: 1rem; }
+
+
+/* Nav */
+div.Nav {
+  font-size: 1.2rem;
+  margin-top: 0rem;
+  text-align: center; 
+  position: absolute;
+  bottom: 7rem;
+  left: 0;
+  right: 0;
+  width: 100%; 
+  height: 1rem;}
+
+ul.Nav {
+  list-style-type: none;
+  display: inline-flex; }
+
+ul.Nav a{
+  color: white;
+  margin: 2rem;  
+  text-decoration: none;
+  font-weight: bold; }
+
+ul.Nav a:hover {
+  color: pink; }
+
+
+/* Fonts */
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('Roboto-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src:  url("fonts/Roboto-Regular.woff") format('woff'), url('Roboto-Regular.ttf')  format('truetype'), url('Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: bolder;
+  font-style: normal; } 
+
+body {
+  font-family: Roboto-Regular, sans-serif; 
+  font-weight: bold;}
+
+
+/* Body */
+body { 
+    background-image: url("../images/headshot.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; }
+
+body {
+  position: absolute;
+  left: 0rem;
+  right: 0rem;
+  width: 100%; 
+  height: 100%; }  

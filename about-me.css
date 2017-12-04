@@ -1,0 +1,125 @@
+{ box sizing: border-box; }
+
+/* Header */
+header {
+	text-align: center; 
+	position: relative;
+	top: 0rem;
+	left: 0;
+	right: 0;
+	width: 100%; 
+	height: 1rem; }
+
+
+/* Nav */
+div.Nav {
+	margin-top: 0rem;
+	margin-bottom: 3rem;
+	text-align: center; 
+	position: relative;
+	top: 1rem;
+	left: 0;
+	right: 0;
+	width: 100%; 
+	height: 1rem;}
+
+ul.Nav {
+  list-style-type: none;
+  display: inline-flex; }
+
+ul.Nav a{
+	color: black;
+	margin: 2rem;  
+	text-decoration: none;
+	font-weight: bold; }
+
+ul.Nav a:hover {
+	color: pink; }
+
+
+/* Fonts */
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; }
+
+body {
+ font-family: source_sans_proregular, sans-serif; }
+
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('Roboto-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src:  url("fonts/Roboto-Regular.woff") format('woff'), url('Roboto-Regular.ttf')  format('truetype'), url('Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: bolder;
+  font-style: normal; } 
+
+header, nav {
+  font-family: Roboto-Regular, sans-serif; 
+  font-weight: bold;}
+
+/* Body */
+body {
+	background: url('../images/header.jpg') repeat;
+	background-attachment: fixed; 
+	background-position: center;
+	background-size: cover; }
+
+body {
+	position: absolute;
+	left: 0rem;
+	right: 0rem;
+	width: auto; 
+	height: auto;}	
+
+p {
+	padding-left: 2rem; 
+	padding-right: 2rem; }
+
+ul.Activities {
+	margin-left: 4rem; }
+
+
+/* Photo Gallery */
+div.gallery {
+	border: 1px solid #ccc;
+	display: block;
+	float: left;
+	position: relative;
+	left: 2.5rem;
+	right: 2.5rem;
+    margin: 0.4rem;
+    width: 11rem; }
+
+div.gallery:hover {
+    border: 3px solid pink; }
+
+div.gallery img {
+    width: 100%;
+    height: 80%; }
+
+div.desc {
+    padding: 0.4rem;
+    text-align: center; }
+
+
+/* Footer */
+footer {
+	list-style-type: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 1rem;
+	text-align: center;
+	width: auto; }
+
+a.linkedin, a.facebook, a.twitter, a.insta, a.resume {
+	padding: 0.5rem; }
